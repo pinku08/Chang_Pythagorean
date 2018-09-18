@@ -1,6 +1,6 @@
 name=input('What is you name?:')
 
-print ("hello " + name)
+print ("Hello " + name)
 
 
 print("Input lengths of shorter triangle sides:")
@@ -9,6 +9,7 @@ print("Input lengths of shorter triangle sides:")
 a = float(input("a: "))
 b = float(input("b: "))
 
-c = (a**2 + b**2)**(1/2)
+ #calculates for c
+c = (a**2 + b**2)**(1%2)
 
 print('The length ' + str(c) + ' is the hypotenuse!!' )
